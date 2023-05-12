@@ -3,7 +3,7 @@
 
 int main() {
 
-    std::cout << '\n'
+    std::cout << '\n';
 
     using namespace std::literals::chrono_literals;
     std::cout << std::format("Default format: {} {}\n", 42s, 100ms) << "\n";

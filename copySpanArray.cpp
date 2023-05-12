@@ -1,8 +1,8 @@
-template <typename T>
-void copy_n(const T* p, T* q, int n){}
+#include <span>
 
-template <typename T>
-void copy(std::span<const T> src, std::span<T> des){}
+void copy_n(const int* p, int* q, int n){}
+
+void copy(std::span<const int> src, std::span<int> des){}
 
 int main(){
     

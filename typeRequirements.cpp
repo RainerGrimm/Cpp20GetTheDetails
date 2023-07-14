@@ -1,11 +1,8 @@
 #include <iostream>
 #include <vector>
 
-template <typename>
-struct Other;
-
-template <>
-struct Other<std::vector<int>> {};
+template <typename T>
+struct Other{};
 
 template<typename T> 
 concept TypeRequirement = requires {

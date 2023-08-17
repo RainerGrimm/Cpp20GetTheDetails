@@ -15,7 +15,7 @@ int main() {
     std::cout << "-3 < 7:  " << std::cmp_less(x, y) << '\n';
     std::cout << "-3 <= 7: " << std::cmp_less_equal(x, y) << '\n';
     std::cout << "-3 > 7:  " << std::cmp_greater(x, y) << '\n';
-    std::cout << "-3 => 7: " << std::cmp_greater_equal(x, y) << '\n';
+    std::cout << "-3 >= 7: " << std::cmp_greater_equal(x, y) << '\n';
     
     std::cout << '\n';
    

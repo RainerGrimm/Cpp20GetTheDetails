@@ -1,3 +1,5 @@
+// https://en.cppreference.com/w/cpp/types/is_constant_evaluated
+
 #include <type_traits>
 #include <cmath>
 #include <iostream>

@@ -6,8 +6,6 @@
 #include <vector>
 #include <utility>
 
-#include "range.hpp"
-
 template <typename Func, typename Seq>
 auto filter(Func func, Seq seq) {
     

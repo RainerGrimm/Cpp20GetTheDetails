@@ -10,6 +10,8 @@ bool isPrime(int i) {
 }
 
 int main() {
+
+    std::cout << '\n';
                                         
     std::cout << "Numbers from 1000000 to 1001000 (dispayed each 100th): " 
               << '\n';
@@ -43,6 +45,6 @@ int main() {
         std::cout << i << " ";  
     }
 
-    std::cout << '\n';
+    std::cout << "\n\n";
 
 }

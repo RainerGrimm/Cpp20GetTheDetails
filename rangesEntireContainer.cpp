@@ -5,6 +5,8 @@
 
 
 int main() {
+
+    std::cout << '\n';
     
     std::unordered_map<std::string, int> freqWord{ {"witch", 25}, {"wizard", 33}, 
                                                    {"tale", 45}, {"dog", 4}, 
@@ -23,5 +25,7 @@ int main() {
     for (const auto& value : values){ std::cout << value << " "; };
     std::cout << '\n';
     for (const auto& value : std::views::values(freqWord)){ std::cout << value << " "; } 
+
+    std::cout << "\n\n";
                            
 }

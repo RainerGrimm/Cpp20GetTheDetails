@@ -5,6 +5,8 @@
 
 
 int main() {
+
+    std::cout << '\n';
     
     std::map<std::string, int> freqWord{ {"witch", 25}, {"wizard", 33}, 
                                          {"tale", 45}, {"dog", 4}, 
@@ -31,6 +33,6 @@ int main() {
     for (const auto& name : std::views::keys(freqWord) 
                           | std::views::filter(firstw)) { std::cout << name << " "; }
     
-    std::cout << '\n';
+    std::cout << "\n\n";
    
 }

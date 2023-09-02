@@ -15,6 +15,7 @@ int main() {
     std::cout << "std::numbers::inv_pi: " <<  std::numbers::inv_pi << '\n';
     std::cout << "std::numbers::inv_sqrtpi: " <<  std::numbers::inv_sqrtpi << '\n'; 
     std::cout << "std::numbers::ln2: " <<  std::numbers::ln2 << '\n'; 
+    std::cout << "std::numbers::ln10: " <<  std::numbers::ln10 << '\n'; 
     std::cout << "std::numbers::sqrt2: " <<  std::numbers::sqrt2 << '\n'; 
     std::cout << "std::numbers::sqrt3: " <<  std::numbers::sqrt3 << '\n'; 
     std::cout << "std::numbers::inv_sqrt3: " <<  std::numbers::inv_sqrt3 << '\n';

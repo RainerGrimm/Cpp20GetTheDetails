@@ -1,5 +1,3 @@
-// midpoint.cpp
-
 #include <limits>
 #include <numeric>
 #include <iostream>

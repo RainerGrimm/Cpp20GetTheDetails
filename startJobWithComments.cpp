@@ -69,6 +69,7 @@ int main() {
     std::cout <<  "Before job" << '\n';
 
     auto job = prepareJob();
+    std::cout << "Start job" << '\n';
     job.start();
 
     std::cout <<  "After job" <<  '\n';

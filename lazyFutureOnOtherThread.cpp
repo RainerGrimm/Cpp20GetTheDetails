@@ -44,7 +44,6 @@ struct MyFuture {
             std::cout << "        promise_type::return_value:  " 
                       << "std::this_thread::get_id(): " 
                       << std::this_thread::get_id() << '\n';
-            std::cout << v << std::endl;
             result = v;
         }
         std::suspend_always initial_suspend() {
